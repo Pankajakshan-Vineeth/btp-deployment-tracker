@@ -1,0 +1,20 @@
+{
+  "name": "btp-deployment-tracker",
+  "version": "0.1.0",
+  "description": "Wraps the SAP Cloud Foundry CLI to record manual SAP BTP MTA deployments in a CAP tracking backend.",
+  "bin": {
+    "btp-deploy": "bin/btp-deploy.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true,
+  "license": "UNLICENSED"
+}

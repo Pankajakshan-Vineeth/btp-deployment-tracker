@@ -1,0 +1,9 @@
+node_modules/
+*.mtar
+backend/gen/
+backend/mta_archives/
+backend/.*_mta_build_tmp/
+backend/Makefile_*.mta
+.env
+.env.*
+npm-debug.log*
